@@ -4,8 +4,8 @@ body {
 
 * {
 	box-sizing: border-box;
-	margin: 3;
-	padding: 3;
+	margin: 0;
+	padding: 0;
 }
 
 .row {
@@ -19,34 +19,40 @@ body {
 }
 
 .container {
-	margin: 20px;
-	top: 65px;
 	position: relative;
+	top: 60px;
+	margin: 15px;
 }
+
 
 .menuitem {
+	position: relative;
 	top: 0;
+	background-color: gray;
 	margin: 15px;
-	padding: 20 px;
-	border: 5px solid green;
+	padding: 25px;
+	border: 3px solid green;
 }
+
+.menuitem p {
+	margin-top: 18px;
+	text-align: justify;
+	font-size: 100%;
+}
+
 
 .menuitemcategory {
-	padding: 5 px 85 px;
-	border-bottom: 3px solid green;
-	border-left: 3px solid green;
-	top: 0;
-	background: chocolate;
-	right: 0px;
 	position: absolute;
+	top: 0;
+	right: 0px;
+	background: #06484f;
+	padding: 6px 90px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
 
 }
 
-p {
-	margin-top: 18px;
-	font-size: 100%;
-	text-align: justify;
-}
+
 
 #Item1TitleName {
 	background-color: darkmagenta;
