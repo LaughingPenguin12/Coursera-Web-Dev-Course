@@ -53,16 +53,32 @@
 	.col-lg-12 {
 		width: 100%;
 	}
-	
+
 }
-
-
 
 
 /* Tablet View */
 
+@media (min-width: 767px) and (max width: 991px) {
+	.col-lg-4 {
+		float: left;
+		width: 50%;
+	}
 
+	.col-lg-TabView {
+		float: left;
+		width: 100%;
+	}
+
+}
 
 
 
 /* Mobile View */
+
+@media (max width 766px) {
+	.col-lg-4 {
+		float: left;
+		width: 100%;
+	}
+}
