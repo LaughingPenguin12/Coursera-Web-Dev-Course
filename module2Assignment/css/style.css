@@ -1,3 +1,69 @@
+body {
+	font-family: Courier New;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 3;
+	padding: 3;
+}
+
+.row {
+	width: 100%;
+}
+
+.toptitlepage {
+	color: darkslateblue;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.container {
+	margin: 20px;
+	top: 65px;
+	position: relative;
+}
+
+.menuitem {
+	top: 0;
+	margin: 15px;
+	padding: 20 px;
+	border: 5px solid green;
+}
+
+.menuitemcategory {
+	padding: 5 px 85 px;
+	border-bottom: 3px solid green;
+	border-left: 3px solid green;
+	top: 0;
+	background: chocolate;
+	right: 0px;
+	position: absolute;
+
+}
+
+p {
+	margin-top: 18px;
+	font-size: 100%;
+	text-align: justify;
+}
+
+#Item1TitleName {
+	background-color: darkmagenta;
+}
+
+#Item2TitleName {
+	background-color: floralwhite;
+}
+
+#Item3TitleName {
+	background-color: GoldenRod;
+}
+
+
+
+
+
 /* Responsive Frameworks */
 /* Desktop View */
 
