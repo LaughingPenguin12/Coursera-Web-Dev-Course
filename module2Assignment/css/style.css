@@ -31,10 +31,10 @@ body {
 	background-color: gray;
 	margin: 15px;
 	padding: 25px;
-	border: 3px solid green;
+	border: 3px solid black;
 }
 
-.menuitem p {
+.menuitem p{
 	margin-top: 18px;
 	text-align: justify;
 	font-size: 100%;
@@ -45,7 +45,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0px;
-	background-color: #06484f;
+	background: green;
 	padding: 6px 90px;
 	border-left: 2px solid black;
 	border-bottom: 2px solid black;
