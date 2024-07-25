@@ -14,7 +14,7 @@ body {
 
 #logo-img {
 	background: url('../images/JadeGrillLogo.jpg') no-repeat;
-	width: 250px;
-	height: 200px;
+	/* width: 150px;
+	height: 150px; */
 	margin: 10px 15px 10px 0;
 }
